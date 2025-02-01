@@ -38,6 +38,7 @@ This project is released under the MIT License. Feel free to use, modify, or con
 ![Capture](https://github.com/user-attachments/assets/d4a6a17d-12f5-4f09-be79-89c015cd7e4d)
 
 First you chose a file then put a password on it , it will create a new file with .locked on it you can not open it with no app after that if you want to open it first select it on the app them put the password and click open lock
+
 📌 Take note that it should be compress to zip first
 
 ![Capture2](https://github.com/user-attachments/assets/65a1908e-f072-4d54-9228-1d43513ca76e)
