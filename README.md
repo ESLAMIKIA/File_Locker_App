@@ -24,8 +24,11 @@
 📥 Installation & Usage:
 
 1️⃣ Download and run FileLockerInstaller.exe.
+
 2️⃣ Open the app and select the file you want to lock.
+
 3️⃣ Set a password and click Lock File to secure it.
+
 📌 License & Contribution
 
 This project is released under the MIT License. Feel free to use, modify, or contribute to its development by forking the repository and submitting pull requests.
