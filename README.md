@@ -5,7 +5,7 @@
 ✨ Features:
 
 ✅ Lock and encrypt files for enhanced security
-✅ Modern and intuitive UI for a seamless experience
+✅ Modern and intuitive UI for a seamless experience<br>
 ✅ Supports multiple file types for encryption
 ✅ Set strong passwords to secure your files
 ✅ Lightweight and fast without unnecessary dependencies
