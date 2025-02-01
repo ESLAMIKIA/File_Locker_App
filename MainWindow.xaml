@@ -1,0 +1,54 @@
+﻿<Window x:Class="FileLocker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="File Locker" Height="500" Width="600" Background="#1E1E2E"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+
+    <Grid>
+        <!-- پس‌زمینه پنل -->
+        <Border Background="#2E2E3E" CornerRadius="15" Padding="20" 
+                Margin="20" BorderBrush="#444" BorderThickness="2">
+
+            <StackPanel HorizontalAlignment="Center">
+                <!-- عنوان -->
+                
+                <TextBlock Text="🔒 File Locker" Foreground="White" FontSize="22" FontWeight="Bold"
+                           HorizontalAlignment="Center" Margin="0,0,0,15"/>
+                           <TextBlock Text="Created by Amir Erfan Eslamikia" Foreground="White" FontSize="10" FontWeight="Bold"
+                           HorizontalAlignment="Center" Margin="0,0,0,5"/>
+
+                <!-- انتخاب فایل -->
+                <Button Content="📁 Chose file" Width="200" Height="40" Background="#4CAF50"
+                        Foreground="White" FontSize="14" Cursor="Hand" 
+                        Click="SelectFile_Click"/>
+                <TextBlock Text=" 📁 Path:" Foreground="White" FontSize="15" FontWeight="Bold" HorizontalAlignment="Left"  />
+                <TextBox Name="txtFilePath" Width="400" Height="35" 
+                         Background="#333" Foreground="White" IsReadOnly="True" 
+                         Margin="0,10,0,0" Padding="5"/>
+
+                <!-- رمز عبور -->
+                <TextBlock Text=" 🔑 Password:" Foreground="White" FontSize="15" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,10,0,0" />
+                <Grid Margin="10">
+                    <PasswordBox Name="txtPassword" Width="400" Height="35" Background="#333" Foreground="White" />
+                </Grid>
+
+                <!-- دکمه‌های قفل و باز کردن -->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+                    <Button Content="🔒 Lock " Width="120" Height="40" Background="#FF5733"
+                            Foreground="White" FontSize="14" Cursor="Hand" 
+                            Click="LockFile_Click" Margin="5"/>
+                    
+                    <Button Content="🔓 Open Lock" Width="120" Height="40" Background="#2196F3"
+                            Foreground="White" FontSize="14" Cursor="Hand" 
+                            Click="UnlockFile_Click" Margin="5"/>
+                </StackPanel>
+
+                <!-- وضعیت -->
+                <TextBlock Name="lblStatus" Foreground="LightGreen" FontSize="14"
+                           HorizontalAlignment="Center" Margin="10"/>
+            </StackPanel>
+        </Border>
+        
+    </Grid>
+    
+</Window>
