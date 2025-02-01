@@ -5,10 +5,15 @@
 ✨ Features:
 
 ✅ Lock and encrypt files for enhanced security
-✅ Modern and intuitive UI for a seamless experience<br>
+
+✅ Modern and intuitive UI for a seamless experience
+
 ✅ Supports multiple file types for encryption
+
 ✅ Set strong passwords to secure your files
+
 ✅ Lightweight and fast without unnecessary dependencies
+
 🛠️ Technologies Used:
 
     C# (.NET WPF) for the user interface
